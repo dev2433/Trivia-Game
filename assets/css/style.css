@@ -1,0 +1,84 @@
+body {
+	background-image: url(http://wallpaper-gallery.net/images/cowboys-wallpaper/cowboys-wallpaper-23.jpg);
+}
+
+#gamePlay {
+	display: none;
+}
+
+#results {
+	display:none;
+	text-align: center;
+}
+
+
+.buttons {
+	text-align: center;
+}
+
+#show-timeRemaining {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Verdana';
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#start {
+	text-align: center;
+}
+
+p {
+	color: royalblue;
+	font-family: 'Verdana';
+	font-weight: bold;
+}
+
+label {
+	color: limegreen;
+	font-family: 'Verdana';
+	font-weight: bold;
+}
+
+#btnSubmit {
+	margin-bottom: 20px;
+	width: 200px;
+	height: 60px;
+}
+
+input {
+	font-size: 30px;
+	background: #1a1aff;
+	color: white;
+}
+
+.jumbotron {
+	background-color: midnightblue;
+}
+
+#thisAnswer {
+	color: aqua;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#main {
+	color: white;
+}
+
+#buttonStart {
+	background-color: silver;
+	border: solid 4px white;
+}
+
+#dezImage {
+	position: relative;
+	left: 0px;
+	width: 236px;
+	height: 418px;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trivia Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src=assets/javascript/app.js></script>
+</head>
+<body>
+<h1 id="main" class="jumbotron">Dallas Cowboys Trivia!</h1>
+<div class="jumbotron" id="start" >
+  <button id="buttonStart" >Start</button>
+  </div>
+
+<div id="gamePlay">
+  
+  <div id="show-timeRemaining">Time Remaining</div>
+
+  <div class="buttons">
+<p>Who is the current Dallas Cowboys starting QB?</p>
+  <form>
+    <label class="radio-inline">
+      <input type="radio" name="question1" value="false">Quincy Carter
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question1" value="false">Troy Aikman
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question1" value="true">Dak Prescott
+    </label>
+    <br>
+    <br>
+
+  <p>Which player is currently under investigation?</p>
+
+    <label class="radio-inline">
+      <input type="radio" name="question2" value="false">Byron Jones
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question2" value="false">Michael Irving
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question2" value="true">Ezekiel Elliot
+    </label>
+  <br>
+  <br>
+
+  <p>Who is the all time sack leader for the Dallas Cowboys?</p>
+
+    <label class="radio-inline">
+      <input type="radio" name="question3" value="false">John Smith
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question3" value="true">Demarcus Ware
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question3" value="false">Deion Sanders
+    </label>
+    <br>
+    <br>
+
+  <p>Which player retired in April 2017 and took a broadcasting job?</p>
+
+    <label class="radio-inline">
+      <input type="radio" name="question4" value="false">Sean Lee
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question4" value="true">Tony Romo
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question4" value="false">Doug Free
+    </label>
+    <br>
+    <br>
+
+  <p>How many SuperBowls have the Cowboys won?</p>
+
+    <label class="radio-inline">
+      <input type="radio" name="question5" value="false">15
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question5" value="false">10
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question5" value="true">5
+    </label>
+    <br>
+    <br>
+
+  <p>Which team did the Cowboys lose to in the playoffs for the 2016 season?</p>
+
+    <label class="radio-inline">
+      <input type="radio" name="question6" value="false">San Diego Chargers
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question6" value="true">Green Bay Packers
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question6" value="false">Oakland Raiders
+    </label>
+    <br>
+    <br>
+
+  <p>Which player won Offensive Rookie of the Year for the 2016 season?</p>
+
+    <label class="radio-inline">
+      <input type="radio" name="question7" value="false">Ezekiel Elliot
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question7" value="false">Larry Allen
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question7" value="true">Dak Prescott
+    </label>
+    <br>
+    <br>
+
+  <p>Which player broke the Rookie rushing record?</p>
+    <label class="radio-inline">
+      <input type="radio" name="question8" value="false">Joseph Randle
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question8" value="true">Ezekiel Elliot
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="question8" value="false">Demarco Murray
+    </label>
+  </form>
+    <br>
+    <br>
+    <br>
+  <input id="btnSubmit" type="Submit" value="Submit">
+
+    </div>
+  </div>
+
+  <div id="results">
+    <p id="thisAnswer">Correct Answers: <span id="numCorrect"></span></p>
+    <br>
+    <p id="thisAnswer">Incorrect Answers: <span id="numIncorrect"></span></p>
+    <br>
+    <p id="thisAnswer">Unanswered Questions: <span id="numUnanswered"></span></p>
+    <img id="dezImage" src="assets/images/dez.jpg">
+  </div>
+
+
+   
+
+</body>
+</html>
+<!--By Dev Patel-->
+
+
+
