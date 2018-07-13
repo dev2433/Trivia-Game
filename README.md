@@ -1,2 +1,2 @@
 # Trivia-Game
-Travia Game Week 5
+Travia Game
